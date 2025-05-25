@@ -1,0 +1,13 @@
+train: C:/Users/somes/Desktop/folder/train/images
+val: C:/Users/somes/Desktop/folder/valid/images
+test: ../test/images
+
+nc: 3
+names: ['Green Light', 'Red Light', 'Yellow Light']
+
+roboflow:
+  workspace: player-w2h9j
+  project: traffic-light-ke5b5-rjwoo
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/player-w2h9j/traffic-light-ke5b5-rjwoo/dataset/3
